@@ -10,6 +10,7 @@
 function sum_es5() {
   console.log(arguments instanceof Array); // вернёт false, так как это объект,
   // у которого названия свойств это числа
+  // и есть свойство length
 
   var sum = 0;
 
