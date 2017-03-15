@@ -16,11 +16,11 @@ var square = function square(x) {
   return x * x;
 };
 
-//  function giveMeAnsver () {
+//  function giveMeAnswer () {
 //    return 42;
 //  }
 
-var giveMeAnsver = function giveMeAnsver() {
+var giveMeAnswer = function giveMeAnswer() {
   return 34;
 };
 
@@ -34,7 +34,7 @@ var log = function log() {
 
 var multyply = function multyply(x, y) {
   var result = x * y;
-  return result; // у стрелочной функции обязательно должен быть return
+  return result;
 };
 
 var getPerson = function getPerson() {
@@ -42,12 +42,12 @@ var getPerson = function getPerson() {
 };
 
 (function () {
-  return console.log('IIFI');
+  return console.log('IIFE');
 })();
 
 console.log(add(5, 7));
 console.log(square(5));
-console.log(giveMeAnsver());
+console.log(giveMeAnswer());
 log();
 console.log(multyply(6, 7));
 console.log(getPerson());

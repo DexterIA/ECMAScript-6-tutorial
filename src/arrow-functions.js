@@ -10,11 +10,11 @@ let add = (x, y) => x + y;
 
 let square = x => x * x;
 
-//  function giveMeAnsver () {
+//  function giveMeAnswer () {
 //    return 42;
 //  }
 
-let giveMeAnsver = () => 34;
+let giveMeAnswer = () => 34;
 
 ///  function log() {
 ///    console.log('Logging...');
@@ -24,17 +24,17 @@ let log = () => console.log('Logging...');
 
 let multyply = (x, y) => {
   let result = x * y;
-  return result;   // у стрелочной функции обязательно должен быть return
+  return result;
 };
 
 let getPerson = () => ({name: 'John'});
 
-(() => console.log('IIFI'))();
+(() => console.log('IIFE'))();
 
 
 console.log(add(5, 7));
 console.log(square(5));
-console.log(giveMeAnsver());
+console.log(giveMeAnswer());
 log();
 console.log(multyply(6, 7));
 console.log(getPerson());
